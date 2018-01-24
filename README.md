@@ -4,6 +4,7 @@
 
 CMRC 2018 Official Website (Chinese only)：[http://www.hfl-tek.com/cmrc2018/](http://www.hfl-tek.com/cmrc2018/)
 
+![sponsor.png](https://github.com/ymcui/cmrc2018/blob/master/sponsor.png)
 
 ### Introduction
 The First Evaluation Workshop on Chinese Machine Reading Comprehension (CMRC2017) was a great success co-located with the CCL2017 at Nanjing on October, 2017. The CMRC2017 has attracted lots of attention from the Chinese NLP community. We would like to express our sincere thanks to all the participants and the support from the community.
