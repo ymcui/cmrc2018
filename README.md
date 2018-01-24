@@ -1,5 +1,3 @@
-> HFL-RC will organize 'The Second Evaluation Workshop on Chinese Machine Reading Comprehension (CMRC2018)'
-
 ## The Second Evaluation Workshop on Chinese Machine Reading Comprehension (CMRC2018)
 
 CMRC 2018 Official Website (Chinese only)：[http://www.hfl-tek.com/cmrc2018/](http://www.hfl-tek.com/cmrc2018/)
