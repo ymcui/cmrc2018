@@ -4,6 +4,11 @@ CMRC 2018 Official Website (Chinese only)：[http://www.hfl-tek.com/cmrc2018/](h
 
 ![sponsor.png](https://github.com/ymcui/cmrc2018/blob/master/sponsor.png)
 
+
+### News
+2018/2/1 The trial data will be available on March 5, 2018.
+
+
 ### Introduction
 The First Evaluation Workshop on Chinese Machine Reading Comprehension (CMRC2017) was a great success co-located with the CCL2017 at Nanjing on October, 2017. The CMRC2017 has attracted lots of attention from the Chinese NLP community. We would like to express our sincere thanks to all the participants and the support from the community.
 
@@ -40,6 +45,7 @@ All the deadlines are Beijing Time (GMT+8) 23:59.
 |  Process | State | Time |
 | :----- | :---: | :---: |
 | Pre-registration | **>>Begin<<** | From now on |
+| Release of trial data | N/A | March 5, 2018 |
 | Confirmation for registration | N/A | April 23, 2018 ~ April 27, 2018 |
 | Release of Training and development set | N/A | May 7, 2018 |
 | Tuning System | N/A | May 7, 2018 ~ August 7, 2018 |
