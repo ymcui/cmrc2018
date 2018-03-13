@@ -6,6 +6,8 @@ CMRC 2018 Official Website (Chinese only)：[http://www.hfl-tek.com/cmrc2018/](h
 
 
 ### News
+2018/3/13 Trial data has been uploaded to github.
+
 2018/2/1 The trial data will be available on March 5, 2018.
 
 
