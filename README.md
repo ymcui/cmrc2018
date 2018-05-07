@@ -6,9 +6,14 @@ CMRC 2018 Official Website (Chinese only)：[http://www.hfl-tek.com/cmrc2018/](h
 
 
 ### News
-2018/3/13 Trial data has been uploaded to github.
+2018/5/7 Training and development data has been released.
+
+2018/3/13 Trial data has been released.
 
 2018/2/1 The trial data will be available on March 5, 2018.
+
+### Notice
+If you are participating CMRC 2018, please download data and evaluation script through [CodaLab](https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce/).
 
 
 ### Introduction
@@ -46,18 +51,18 @@ All the deadlines are Beijing Time (GMT+8) 23:59.
 
 |  Process | State | Time |
 | :----- | :---: | :---: |
-| Pre-registration | **>>Begin<<** | From now on |
-| Release of trial data | N/A | March 5, 2018 |
-| Confirmation for registration | N/A | April 23, 2018 ~ April 27, 2018 |
-| Release of Training and development set | N/A | May 7, 2018 |
-| Tuning System | N/A | May 7, 2018 ~ August 7, 2018 |
+| Pre-registration | END | From now on |
+| Release of trial data | END | March 5, 2018 |
+| Confirmation for registration | END | April 23, 2018 ~ April 27, 2018 |
+| Release of Training and development set | END | May 7, 2018 |
+| Tuning System | **>>Running<<** | May 7, 2018 ~ August 7, 2018 |
 | Validation for development set | N/A | June 7, 2018 ~ August 7, 2018 |
 | Submission for final system | N/A | August 13, 2018 ~ August 17, 2018 |
 | System Description | N/A |  Mid-September, 2018 |
 | CMRC2018 workshop | N/A | TBD, co-locate with CCL2018（October 20 or 21, 2018） |
 
 
-## Registration for Participation
+## Registration for Participation (Closed)
 Please fill the following form for participation: [https://wj.qq.com/s/1822356/e14c](https://wj.qq.com/s/1822356/e14c)
 
 ## Organization
