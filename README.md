@@ -31,7 +31,10 @@ If you wish to use this data in your research, please cite:
   year={2018}
 }
 ```
+### International Standard Language Resource Number (ISLRN)
+ISLRN: 013-662-947-043-2
 
+http://www.islrn.org/resources/resources_info/7952/
 
 ### Introduction
 The First Evaluation Workshop on Chinese Machine Reading Comprehension (CMRC2017) was a great success co-located with the CCL2017 at Nanjing on October, 2017. The CMRC2017 has attracted lots of attention from the Chinese NLP community. We would like to express our sincere thanks to all the participants and the support from the community.
