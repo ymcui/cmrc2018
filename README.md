@@ -4,8 +4,17 @@ CMRC 2018 Official Website (Chinese only)：[http://www.hfl-tek.com/cmrc2018/](h
 
 ![sponsor.png](https://github.com/ymcui/cmrc2018/blob/master/sponsor.png)
 
+### Open Challenge Invitation
+The Second Evaluation Workshop on Chinese Machine Reading Comprehension was succesfully ended. The evaluation committee had decided to continue to accept submissions to further evaluations on the hidden test set and challenge set. To submit please infer the following steps:
+
+[https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/](https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/)
+
+Open Challenge Leaderboard: [https://hfl-rc.github.io/cmrc2018/open_challenge/](https://hfl-rc.github.io/cmrc2018/open_challenge/)
+
 
 ### News
+2018/12/7 Open Challenge has been announced.
+
 2018/10/18 [System overview paper](https://arxiv.org/abs/1810.07366) was out.
 
 2018/5/7 Training and development data has been released.
