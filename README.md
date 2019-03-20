@@ -1,6 +1,6 @@
 ## The Second Evaluation Workshop on Chinese Machine Reading Comprehension (CMRC2018)
 
-CMRC 2018 Official Website (Chinese only)：[http://www.hfl-tek.com/cmrc2018/](http://www.hfl-tek.com/cmrc2018/)
+CMRC 2018 Official Website (Chinese only)：[https://cmrc2018.hfl-rc.com/](https://hfl-rc.github.io/cmrc2018/)
 
 ![sponsor.png](https://github.com/ymcui/cmrc2018/blob/master/sponsor.png)
 
