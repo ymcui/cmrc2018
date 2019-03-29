@@ -1,18 +1,26 @@
 ## The Second Evaluation Workshop on Chinese Machine Reading Comprehension (CMRC2018)
 
+<<<<<<< HEAD
+CMRC 2018 Official Website (Chinese only)：[http://www.hfl-tek.com/cmrc2018/](https://hfl-rc.github.io/cmrc2018/)
+=======
 CMRC 2018 Official Website (Chinese only)：[https://cmrc2018.hfl-rc.com/](https://hfl-rc.github.io/cmrc2018/)
+>>>>>>> 9216c7754b54c8b6e6f7a1fd3582a8596251a121
 
 ![sponsor.png](https://github.com/ymcui/cmrc2018/blob/master/sponsor.png)
 
 ### Open Challenge Invitation
-The Second Evaluation Workshop on Chinese Machine Reading Comprehension was succesfully ended. The evaluation committee had decided to continue to accept submissions to further evaluations on the hidden test set and challenge set. To submit please infer the following steps:
+The Second Evaluation Workshop on Chinese Machine Reading Comprehension was succesfully ended. The evaluation committee had decided to continue to accept submissions to further evaluations on the hidden test set and challenge set. 
 
-[https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/](https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/)
+CMRC 2018 Public Datasets: [https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce](https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce)
+
+Submission Guidelines: [https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/](https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/)
 
 Open Challenge Leaderboard: [https://hfl-rc.github.io/cmrc2018/open_challenge/](https://hfl-rc.github.io/cmrc2018/open_challenge/)
 
 
 ### News
+2019/3/29 We provide SQuAD-style CMRC 2018 datasets, which is exactly the same with the format for SQuAD, see [CodaLab link](https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce)
+
 2018/12/7 Open Challenge has been announced.
 
 2018/10/18 [System overview paper](https://arxiv.org/abs/1810.07366) was out.
