@@ -111,6 +111,11 @@ Please fill the following form for participation: [https://wj.qq.com/s/1822356/e
 <br>Yiming Cui, iFLYTEK Research**
 
 
+## Official HFL WeChat Account
+Follow Joint Laboratory of HIT and iFLYTEK Research (HFL) on WeChat.
+
+![qrcode.png](https://github.com/ymcui/cmrc2018/blob/master/qrcode.jpg)
+
 ## Contact us
 Any problems? Feel free to concat us.
 
