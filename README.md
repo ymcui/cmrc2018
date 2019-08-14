@@ -16,6 +16,8 @@ Open Challenge Leaderboard: [https://hfl-rc.github.io/cmrc2018/open_challenge/](
 
 
 ### News
+**2019/8/14 Our dataset is accepted as a short paper by EMNLP-IJCNLP 2019!**
+
 2019/3/29 We provide SQuAD-style CMRC 2018 datasets, which is exactly the same with the format for SQuAD, see [CodaLab link](https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce)
 
 2018/12/7 Open Challenge has been announced.
@@ -38,12 +40,14 @@ System overview: [https://arxiv.org/abs/1810.07366](https://arxiv.org/abs/1810.0
 If you wish to use this data in your research, please cite:
 
 ```
-@article{cmrc2018-dataset,
-  title={A Span-Extraction Dataset for Chinese Machine Reading Comprehension},
-  author={Cui, Yiming and Liu, Ting and Xiao, Li and Chen, Zhipeng and Ma, Wentao and Che, Wanxiang and Wang, Shijin and Hu, Guoping},
-  journal={arXiv preprint arXiv:1810.07366},
-  year={2018}
+@InProceedings{cui-emnlp2019-cmrc2018,
+  author = 	"Cui, Yiming and Liu, Ting and Che, Wanxiang and Xiao, Li and Chen, Zhipeng and Ma, Wentao and Wang, Shijin and Hu, Guoping",
+  title = 	"A Span-Extraction Dataset for Chinese Machine Reading Comprehension",
+  booktitle = 	"Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and 9th International Joint Conference on Natural Language Processing",
+  year = 	"2019",
+  publisher = 	"Association for Computational Linguistics"
 }
+
 ```
 ### International Standard Language Resource Number (ISLRN)
 ISLRN: 013-662-947-043-2
