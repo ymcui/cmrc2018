@@ -1,43 +1,30 @@
-## The Second Evaluation Workshop on Chinese Machine Reading Comprehension (CMRC2018)
+## A Span-Extraction Dataset for Chinese Machine Reading Comprehension (CMRC2018)
+This repository contains the data for [The Second Evaluation Workshop on Chinese Machine Reading Comprehension (CMRC 2018)](https://hfl-rc.github.io/cmrc2018/). We will present our paper on [EMNLP-IJCNLP 2019](http://emnlp-ijcnlp2019.org).
 
-CMRC 2018 Official Website (Chinese only)：[https://cmrc2018.hfl-rc.com/](https://hfl-rc.github.io/cmrc2018/)
-
-
-![sponsor.png](https://github.com/ymcui/cmrc2018/blob/master/sponsor.png)
+**Title: A Span-Extraction Dataset for Chinese Machine Reading Comprehension**    
+Authors: Yiming Cui, Ting Liu, Wanxiang Che, Li Xiao, Zhipeng Chen, Wentao Ma, Shijin Wang, Guoping Hu   
+Link: [https://arxiv.org/abs/1810.07366](https://arxiv.org/abs/1810.07366)
+Venue: EMNLP-IJCNLP 2019
 
 ### Open Challenge Invitation
-The Second Evaluation Workshop on Chinese Machine Reading Comprehension was succesfully ended. The evaluation committee had decided to continue to accept submissions to further evaluations on the hidden test set and challenge set. 
+The Second Evaluation Workshop on Chinese Machine Reading Comprehension was succesfully ended. 
+The evaluation committee had decided to continue to accept submissions to further evaluations on the hidden test set and challenge set. 
 
-CMRC 2018 Public Datasets: [https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce](https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce)
+#### CMRC 2018 Public Datasets
+Please download CMRC 2018 public datasets via the following CodaLab worksheet.  
+[https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce](https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce)
 
-Submission Guidelines: [https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/](https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/)
+#### Submission Guidelines
+If you would like to test your model on the hidden test and challenge set, please follow the instructions on how to submit your model via CodaLab worksheet.  
+[https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/](https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/)
 
-Open Challenge Leaderboard: [https://hfl-rc.github.io/cmrc2018/open_challenge/](https://hfl-rc.github.io/cmrc2018/open_challenge/)
-
-
-### News
-**2019/8/14 Our dataset is accepted as a short paper by EMNLP-IJCNLP 2019!**
-
-2019/3/29 We provide SQuAD-style CMRC 2018 datasets, which is exactly the same with the format for SQuAD, see [CodaLab link](https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce)
-
-2018/12/7 Open Challenge has been announced.
-
-2018/10/18 [System overview paper](https://arxiv.org/abs/1810.07366) was out.
-
-2018/5/7 Training and development data has been released.
-
-2018/3/13 Trial data has been released.
-
-2018/2/1 The trial data will be available on March 5, 2018.
-
-### Notice
-If you are participating CMRC 2018, please download data and evaluation script through [CodaLab](https://worksheets.codalab.org/worksheets/0x92a80d2fab4b4f79a2b4064f7ddca9ce/).
+#### Open Challenge Leaderboard
+Keep track of the latest state-of-the-art systems on CMRC 2018 dataset.  
+[https://hfl-rc.github.io/cmrc2018/open_challenge/](https://hfl-rc.github.io/cmrc2018/open_challenge/)
 
 
-### System Overview & Reference
-System overview: [https://arxiv.org/abs/1810.07366](https://arxiv.org/abs/1810.07366)
-
-If you wish to use this data in your research, please cite:
+### Reference
+If you wish to use our data in your research, please cite:
 
 ```
 @InProceedings{cui-emnlp2019-cmrc2018,
@@ -60,6 +47,4 @@ Follow Joint Laboratory of HIT and iFLYTEK Research (HFL) on WeChat.
 ![qrcode.png](https://github.com/ymcui/cmrc2018/blob/master/qrcode.jpg)
 
 ## Contact us
-Any problems? Feel free to concat us.
-
-E-MAIL： **[cmrc2018@126.com](mailto:cmrc2018@126.com)**
+Please submit an issue.
