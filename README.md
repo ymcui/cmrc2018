@@ -3,7 +3,7 @@ This repository contains the data for [The Second Evaluation Workshop on Chinese
 
 **Title: A Span-Extraction Dataset for Chinese Machine Reading Comprehension**    
 Authors: Yiming Cui, Ting Liu, Wanxiang Che, Li Xiao, Zhipeng Chen, Wentao Ma, Shijin Wang, Guoping Hu   
-Link: [https://arxiv.org/abs/1810.07366](https://arxiv.org/abs/1810.07366)
+Link: [https://arxiv.org/abs/1810.07366](https://arxiv.org/abs/1810.07366)  
 Venue: EMNLP-IJCNLP 2019
 
 ### Open Challenge Invitation
