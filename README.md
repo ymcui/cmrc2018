@@ -5,7 +5,7 @@ This repository contains the data for [The Second Evaluation Workshop on Chinese
 
 **Title: A Span-Extraction Dataset for Chinese Machine Reading Comprehension**    
 Authors: Yiming Cui, Ting Liu, Wanxiang Che, Li Xiao, Zhipeng Chen, Wentao Ma, Shijin Wang, Guoping Hu   
-Link: [https://arxiv.org/abs/1810.07366](https://arxiv.org/abs/1810.07366)  
+Link: [https://www.aclweb.org/anthology/D19-1600/](https://www.aclweb.org/anthology/D19-1600/)  
 Venue: EMNLP-IJCNLP 2019
 
 #### CMRC 2018 Public Datasets
@@ -24,14 +24,25 @@ Keep track of the latest state-of-the-art systems on CMRC 2018 dataset.
 If you wish to use our data in your research, please cite:
 
 ```
-@InProceedings{cui-emnlp2019-cmrc2018,
-  author = 	"Cui, Yiming and Liu, Ting and Che, Wanxiang and Xiao, Li and Chen, Zhipeng and Ma, Wentao and Wang, Shijin and Hu, Guoping",
-  title = 	"A Span-Extraction Dataset for Chinese Machine Reading Comprehension",
-  booktitle = 	"Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and 9th International Joint Conference on Natural Language Processing",
-  year = 	"2019",
-  publisher = 	"Association for Computational Linguistics"
+@inproceedings{cui-emnlp2019-cmrc2018,
+    title = "A Span-Extraction Dataset for {C}hinese Machine Reading Comprehension",
+    author = "Cui, Yiming  and
+      Liu, Ting  and
+      Che, Wanxiang  and
+      Xiao, Li  and
+      Chen, Zhipeng  and
+      Ma, Wentao  and
+      Wang, Shijin  and
+      Hu, Guoping",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D19-1600",
+    doi = "10.18653/v1/D19-1600",
+    pages = "5886--5891",
 }
-
 ```
 ### International Standard Language Resource Number (ISLRN)
 ISLRN: 013-662-947-043-2
