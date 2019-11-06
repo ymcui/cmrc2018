@@ -272,7 +272,7 @@ def read_squad_examples(input_file, is_training):
   for entry in input_data:
     for paragraph in entry["paragraphs"]:
       paragraph_text = paragraph["context"]
-      raw_doc_tokens = customize_tokenizer(paragraph_text)
+      raw_doc_tokens = customize_tokenizer(paragraph_text, do_lower_case=FLAGS.do_lower_case)
       doc_tokens = []
       char_to_word_offset = []
       prev_is_whitespace = True
@@ -324,6 +324,8 @@ def read_squad_examples(input_file, is_training):
                 doc_tokens[start_position:(end_position + 1)])
             cleaned_answer_text = "".join(
                 tokenization.whitespace_tokenize(orig_answer_text))
+            if FLAGS.do_lower_case:
+                cleaned_answer_text = cleaned_answer_text.lower()
             if actual_text.find(cleaned_answer_text) == -1:
               pdb.set_trace()
               tf.logging.warning("Could not find answer: '%s' vs. '%s'", actual_text, cleaned_answer_text)
