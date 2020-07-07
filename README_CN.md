@@ -20,6 +20,16 @@ Venue: EMNLP-IJCNLP 2019
 想了解在CMRC 2018数据上表现最好的模型吗？请查阅排行榜。
 [https://hfl-rc.github.io/cmrc2018/open_challenge/](https://hfl-rc.github.io/cmrc2018/open_challenge/)
 
+#### 通过🤗nlp快速加载
+你可以通过[HuggingFace `nlp` library](https://github.com/huggingface/nlp)工具包快速加载数据集：
+
+```python
+!pip install nlp
+from nlp import load_dataset
+dataset = load_dataset('cmrc2018')
+```
+关于`nlp`工具包的更多选项和使用细节可以通过这里访问了解：https://github.com/huggingface/nlp
+
 ### 引用
 如果你在你的工作中使用了我们的数据，请引用下列文献：
 

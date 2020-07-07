@@ -20,6 +20,16 @@ If you would like to **test your model on the hidden test and challenge set**, p
 Keep track of the latest state-of-the-art systems on CMRC 2018 dataset.  
 [https://hfl-rc.github.io/cmrc2018/open_challenge/](https://hfl-rc.github.io/cmrc2018/open_challenge/)
 
+#### Quick Load Through 🤗nlp
+You can also access this dataset as part of the [HuggingFace `nlp` library](https://github.com/huggingface/nlp) library as follow:
+
+```python
+!pip install nlp
+from nlp import load_dataset
+dataset = load_dataset('cmrc2018')
+```
+More details on the options and usage for this library can be found on the `nlp` repository at https://github.com/huggingface/nlp
+
 ### Reference
 If you wish to use our data in your research, please cite:
 
