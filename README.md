@@ -16,9 +16,9 @@ Please download CMRC 2018 public datasets via the following CodaLab Worksheet.
 If you would like to **test your model on the hidden test and challenge set**, please follow the instructions on how to submit your model via CodaLab worksheet.  
 [https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/](https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/)
 
-#### Open Challenge Leaderboard
+#### Open Challenge Leaderboard (New!)
 Keep track of the latest state-of-the-art systems on CMRC 2018 dataset.  
-[https://hfl-rc.github.io/cmrc2018/open_challenge/](https://hfl-rc.github.io/cmrc2018/open_challenge/)
+[https://ymcui.github.io/cmrc2018/](https://ymcui.github.io/cmrc2018/)
 
 #### Quick Load Through 🤗nlp
 You can also access this dataset as part of the [HuggingFace `nlp` library](https://github.com/huggingface/nlp) library as follow:
