@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<!--Author: Pranav Rajpurkar 2016-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+	Chinese Machine Reading Comprehension (CMRC)</title>
+	<meta name="description" content=".">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta property="og:image" content="/logo.png">
+	<link rel="image_src" type="image/png" href="./logo.png">
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="icon" href="./favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./bootstrap.min.css">
+	<link rel="stylesheet" href="./layout.css">
+	<link rel="stylesheet" href="./index.css">
+	<script async defer src="https://buttons.github.io/buttons.js">
+	</script>
+	<script src="./analytics.js">
+	</script>
+</head>
+<body>
+	<div class="navbar navbar-default navbar-fixed-top" id="topNavbar" role="navigation">
+		<div class="container clearfix" id="navContainer">
+			<div class="rightNav">
+				<div class="collapseDiv">
+					<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="glyphicon glyphicon-menu-hamburger">
+						</span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">
+							CMRC 2018</a>
+						</li>
+						<li>
+							<a href="https://competitions.codalab.org/competitions/20131#results">
+							CMRC 2019</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="leftNav">
+				<div class="brandDiv">
+					<a class="navbar-brand" href="./">
+					CMRC</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cover" id="topCover">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 id="appTitle">
+						<font face="arial"><b>CMRC 2018</b></font>
+					</h1>
+					<h2 id="appSubtitle"><font face="helvetica">
+					A Span-Extraction Dataset for Chinese Machine Reading Comprehension
+					</font></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="cover" id="contentCover">
+		<div class="container">
+
+<div>
+<div style="width:32%;float:left;">
+	<h2></h2>
+	<div class="infoCard">		
+	<div class="infoBody">
+		<div class="infoHeadline">
+			<h2>
+			What is CMRC 2018?</h2>
+		</div>
+
+		<p align="justify">
+			<b>CMRC 2018</b> is a <b>C</b>hinese <b>M</b>achine <b>R</b>eading <b>C</b>omprehension dataset that was used in
+			<a href="https://hfl-rc.github.io/cmrc2018/">The Second Evaluation Workshop on Chinese Machine Reading Comprehension</a>.
+			Specifically, CMRC 2018 is a span-extraction reading comprehension dataset that is similar to <a href="https://rajpurkar.github.io/SQuAD-explorer/">SQuAD</a>.
+			Besides the regular training, development, and test set, we also include a challenging set that need comprehensive reasoning over multiple sentences, which is far more difficult.
+		</p>
+
+		<a class="btn actionBtn" href="https://www.aclweb.org/anthology/D19-1600/">
+		CMRC 2018 paper <br/>[Cui et al., EMNLP 2019]</a>
+		<hr>
+
+
+		<div class="infoHeadline">
+			<h2>Getting Started</h2>
+		</div>
+
+		<p align="justify">
+			Download a copy of the dataset (distributed under the  <a href="http://creativecommons.org/licenses/by-sa/4.0/legalcode">CC BY-SA 4.0</a> license):
+			<ul class="list-unstyled">
+				<li>
+					<a class="btn actionBtn inverseBtn" href="https://github.com/ymcui/cmrc2018/tree/master/squad-style-data" download>
+					Download CMRC 2018 Dataset</a>
+				</li>
+			</ul>
+		</p>
+
+		<p align="justify">
+			You may also be interested in a quick baseline system based on pre-trained language model (such as BERT).
+			<ul class="list-unstyled">
+				<li>
+					<a class="btn actionBtn inverseBtn" href="https://github.com/ymcui/cmrc2018" download>
+					Get Baseline Code</a>
+				</li>
+			</ul>
+		</p>
+
+
+		<div class="infoHeadline">
+			<h2>Official Submission</h2>
+		</div>
+
+		<p align="justify">
+			To preserve the integrity of test results, we do not release the test and challenge set to the public. Instead, we require you to upload your model onto CodaLab so that we can run it on the test and challenge set for you. You can follow the instructions on CodaLab (which is similar to SQuAD submission).
+
+			<a class="btn actionBtn inverseBtn" href="https://worksheets.codalab.org/worksheets/0x8212d84ca41c4150b555a075b19ccc05/">
+			Submission Tutorial</a>
+		</p>
+
+
+		<div class="infoHeadline">
+			<h2>
+			Have Questions?</h2>
+		</div>
+		<p>
+			Ask us questions at our   <a href="https://github.com/ymcui/cmrc2018">
+			GitHub repository</a>
+			or at <a href="mailto:cmrc2018@126.com">
+			cmrc2018 [at] 126 [dot] com</a>
+		.</p>
+	</div>
+	</div>
+</div>
+</div>
+
+
+<div style="width:3%;float:left">
+	<h2></h2>
+</div>
+
+
+<div style="width:65%;float:right">
+	<h2></h2>
+<div class="infoCard">
+		<div class="infoBody">
+			<div class="infoHeadline">
+				<h2>
+				Leaderboard</h2>
+			</div>
+			<p align="justify">
+				<font face="helvetica">
+				CMRC 2018 challenge set requires comprehensive reasoning over multiple clues in the passage, while keeping the original span-extraction format, which is far more challenging than the test set. Will your system surpass the humans on this task?
+				</font>
+			</p>
+			<table class="table performanceTable">
+				<tr>
+					<th rowspan="2">Rank</th>
+					<th rowspan="2">Model</th>
+					<th colspan="2">Test</th>
+					<th colspan="2">Challenge</th>
+				</tr>
+				<tr>
+					<th>EM</th>
+					<th>F1</th>
+					<th>EM</th>
+					<th>F1</th>
+				</tr>
+
+				<tr class="human-row">
+					<td></td>
+					<td>
+						Human Performance				
+						<p class="institution"><font face="helvetica" size="2">Joint Laboratory of HIT and iFLYTEK Research</p>
+						<a href="https://www.aclweb.org/anthology/D19-1600/">[Cui et al., EMNLP 2019]</font></a>
+					</td>
+					<td>92.400</td>
+					<td>97.914</td>
+					<td>90.382</td>
+					<td>95.248</td>
+				</tr>
+		<tr><td>
+			<p>1</p>
+			<span class="date label label-default">2019/10/14</span>
+		</td>
+		<td style="word-break:break-word;">
+			RoBERTa-wwm-ext-large (single model)
+			<p class="institution"><font face="helvetica" size="2">
+Joint Laboratory of HIT and iFLYTEK Research</p>			<a href="https://github.com/ymcui/Chinese-BERT-wwm">
+https://github.com/ymcui/Chinese-BERT-wwm</font></a></td>
+			<td>74.198</td>
+			<td>90.604</td>
+			<td><b>31.548</b></td>
+			<td><b>60.074</b></td>
+		<tr><td>
+			<p>2</p>
+			<span class="date label label-default">2019/11/5</span>
+		</td>
+		<td style="word-break:break-word;">
+			RoBERTa-wwm-ext-large (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ChineseGLUE Team</p>			<a href="https://github.com/CLUEBenchmark">
+https://github.com/CLUEBenchmark</font></a></td>
+			<td>76.588</td>
+			<td>91.566</td>
+			<td>30.159</td>
+			<td>57.229</td>
+		<tr><td>
+			<p>3</p>
+			<span class="date label label-default">2019/11/1</span>
+		</td>
+		<td style="word-break:break-word;">
+			ALBERT-xlarge (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ChineseGLUE Team</p>			<a href="https://github.com/CLUEBenchmark">
+https://github.com/CLUEBenchmark</font></a></td>
+			<td>75.220</td>
+			<td>90.922</td>
+			<td>28.770</td>
+			<td>57.864</td>
+		<tr><td>
+			<p>4</p>
+			<span class="date label label-default">2019/11/1</span>
+		</td>
+		<td style="word-break:break-word;">
+			RoBERTa-large (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ChineseGLUE Team</p>			<a href="https://github.com/CLUEBenchmark">
+https://github.com/CLUEBenchmark</font></a></td>
+			<td>76.118</td>
+			<td>90.949</td>
+			<td>26.587</td>
+			<td>54.594</td>
+		<tr><td>
+			<p>5</p>
+			<span class="date label label-default">2019/5/1</span>
+		</td>
+		<td style="word-break:break-word;">
+			Dual BERT (w/ SQuAD) (single model)
+			<p class="institution"><font face="helvetica" size="2">
+Joint Laboratory of HIT and iFLYTEK Research</p>			<a href="https://arxiv.org/abs/1909.00361">
+https://arxiv.org/abs/1909.00361</font></a></td>
+			<td>73.600</td>
+			<td>90.200</td>
+			<td>27.800</td>
+			<td>55.200</td>
+		<tr><td>
+			<p>6</p>
+			<span class="date label label-default">2019/11/1</span>
+		</td>
+		<td style="word-break:break-word;">
+			ALBERT-large (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ChineseGLUE Team</p>			<a href="https://github.com/CLUEBenchmark">
+https://github.com/CLUEBenchmark</font></a></td>
+			<td>73.667</td>
+			<td>90.175</td>
+			<td>27.976</td>
+			<td>51.622</td>
+		<tr><td>
+			<p>7</p>
+			<span class="date label label-default">2019/8/19</span>
+		</td>
+		<td style="word-break:break-word;">
+			XLNet-mid (single model)
+			<p class="institution"><font face="helvetica" size="2">
+Joint Laboratory of HIT and iFLYTEK Research</p>			<a href="https://github.com/ymcui/Chinese-XLNet">
+https://github.com/ymcui/Chinese-XLNet</font></a></td>
+			<td>69.300</td>
+			<td>89.200</td>
+			<td>29.100</td>
+			<td>55.800</td>
+		<tr><td>
+			<p>8</p>
+			<span class="date label label-default">2020/5/11</span>
+		</td>
+		<td style="word-break:break-word;">
+			UER (single model)
+			<p class="institution"><font face="helvetica" size="2">
+Tencent Oteam</p>			<a href="https://github.com/dbiir/UER-py">
+https://github.com/dbiir/UER-py</font></a></td>
+			<td><b>78.795</b></td>
+			<td><b>91.992</b></td>
+			<td>24.206</td>
+			<td>46.951</td>
+		<tr><td>
+			<p>9</p>
+			<span class="date label label-default">2020/10/22</span>
+		</td>
+		<td style="word-break:break-word;">
+			RoBERTa-wwm-ext-large (single model)
+			<p class="institution"><font face="helvetica" size="2">
+AISpeech</p></td>
+			<td>74.954</td>
+			<td>90.286</td>
+			<td>23.214</td>
+			<td>52.138</td>
+		<tr><td>
+			<p>10</p>
+			<span class="date label label-default">2019/11/1</span>
+		</td>
+		<td style="word-break:break-word;">
+			ERNIE 1.0 (maxlen=512) (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ChineseGLUE Team</p>			<a href="https://github.com/CLUEBenchmark">
+https://github.com/CLUEBenchmark</font></a></td>
+			<td>73.320</td>
+			<td>89.621</td>
+			<td>26.190</td>
+			<td>50.976</td>
+		<tr><td>
+			<p>11</p>
+			<span class="date label label-default">2019/11/5</span>
+		</td>
+		<td style="word-break:break-word;">
+			RoBERTa-wwm-ext-base (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ChineseGLUE Team</p>			<a href="https://github.com/CLUEBenchmark">
+https://github.com/CLUEBenchmark</font></a></td>
+			<td>73.892</td>
+			<td>89.748</td>
+			<td>25.198</td>
+			<td>50.759</td>
+		<tr><td>
+			<p>12</p>
+			<span class="date label label-default">2019/9/10</span>
+		</td>
+		<td style="word-break:break-word;">
+			RoBERTa-wwm-ext (single model)
+			<p class="institution"><font face="helvetica" size="2">
+Joint Laboratory of HIT and iFLYTEK Research</p>			<a href="https://github.com/ymcui/Chinese-BERT-wwm">
+https://github.com/ymcui/Chinese-BERT-wwm</font></a></td>
+			<td>72.600</td>
+			<td>89.400</td>
+			<td>26.200</td>
+			<td>51.000</td>
+		<tr><td>
+			<p>13</p>
+			<span class="date label label-default">2019/11/5</span>
+		</td>
+		<td style="word-break:break-word;">
+			BERT-wwm-ext (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ChineseGLUE Team</p>			<a href="https://github.com/CLUEBenchmark">
+https://github.com/CLUEBenchmark</font></a></td>
+			<td>73.238</td>
+			<td>88.784</td>
+			<td>22.421</td>
+			<td>46.430</td>
+		<tr><td>
+			<p>14</p>
+			<span class="date label label-default">2019/7/30</span>
+		</td>
+		<td style="word-break:break-word;">
+			BERT-wwm-ext (single model)
+			<p class="institution"><font face="helvetica" size="2">
+Joint Laboratory of HIT and iFLYTEK Research</p>			<a href="https://github.com/ymcui/Chinese-BERT-wwm">
+https://github.com/ymcui/Chinese-BERT-wwm</font></a></td>
+			<td>71.400</td>
+			<td>87.700</td>
+			<td>24.000</td>
+			<td>47.300</td>
+		<tr><td>
+			<p>15</p>
+			<span class="date label label-default">2019/5/1</span>
+		</td>
+		<td style="word-break:break-word;">
+			Dual BERT (single model)
+			<p class="institution"><font face="helvetica" size="2">
+Joint Laboratory of HIT and iFLYTEK Research</p>			<a href="https://arxiv.org/abs/1909.00361">
+https://arxiv.org/abs/1909.00361</font></a></td>
+			<td>70.400</td>
+			<td>88.100</td>
+			<td>23.800</td>
+			<td>47.900</td>
+		<tr><td>
+			<p>16</p>
+			<span class="date label label-default">2019/11/5</span>
+		</td>
+		<td style="word-break:break-word;">
+			XLNet-mid (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ChineseGLUE Team</p>			<a href="https://github.com/CLUEBenchmark">
+https://github.com/CLUEBenchmark</font></a></td>
+			<td>66.517</td>
+			<td>86.099</td>
+			<td>24.008</td>
+			<td>52.859</td>
+		<tr><td>
+			<p>17</p>
+			<span class="date label label-default">2019/6/20</span>
+		</td>
+		<td style="word-break:break-word;">
+			BERT-wwm (single model)
+			<p class="institution"><font face="helvetica" size="2">
+Joint Laboratory of HIT and iFLYTEK Research</p>			<a href="https://arxiv.org/abs/1906.08101">
+https://arxiv.org/abs/1906.08101</font></a></td>
+			<td>70.500</td>
+			<td>87.400</td>
+			<td>21.000</td>
+			<td>47.000</td>
+		<tr><td>
+			<p>18</p>
+			<span class="date label label-default">2019/11/1</span>
+		</td>
+		<td style="word-break:break-word;">
+			BERT-base (google) (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ChineseGLUE Team</p>			<a href="https://github.com/CLUEBenchmark">
+https://github.com/CLUEBenchmark</font></a></td>
+			<td>69.724</td>
+			<td>87.174</td>
+			<td>21.230</td>
+			<td>44.861</td>
+		<tr><td>
+			<p>19</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			Z-Reader (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ZhuiYi</p></td>
+			<td>74.178</td>
+			<td>88.145</td>
+			<td>13.889</td>
+			<td>37.422</td>
+		<tr><td>
+			<p>20</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			MCA-Reader (ensemble)
+			<p class="institution"><font face="helvetica" size="2">
+BISTU</p></td>
+			<td>71.175</td>
+			<td>88.090</td>
+			<td>15.476</td>
+			<td>37.104</td>
+		<tr><td>
+			<p>21</p>
+			<span class="date label label-default">2019/3/27</span>
+		</td>
+		<td style="word-break:break-word;">
+			P-Reader (single model)
+			<p class="institution"><font face="helvetica" size="2">
+swjtu_PF</p></td>
+			<td>65.189</td>
+			<td>84.386</td>
+			<td>15.079</td>
+			<td>39.583</td>
+		<tr><td>
+			<p>22</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			RCEN (ensemble)
+			<p class="institution"><font face="helvetica" size="2">
+6ESTATES PTE LTD</p></td>
+			<td>68.662</td>
+			<td>85.743</td>
+			<td>15.278</td>
+			<td>34.479</td>
+		<tr><td>
+			<p>23</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			MCA-Reader (single model)
+			<p class="institution"><font face="helvetica" size="2">
+BISTU</p></td>
+			<td>68.335</td>
+			<td>85.707</td>
+			<td>13.690</td>
+			<td>33.964</td>
+		<tr><td>
+			<p>24</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			GM-Reader (ensemble)
+			<p class="institution"><font face="helvetica" size="2">
+BUPT CIST</p></td>
+			<td>64.045</td>
+			<td>83.046</td>
+			<td>15.675</td>
+			<td>37.315</td>
+		<tr><td>
+			<p>25</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			OmegaOne (ensemble)
+			<p class="institution"><font face="helvetica" size="2">
+Fudan University</p></td>
+			<td>66.272</td>
+			<td>82.788</td>
+			<td>12.103</td>
+			<td>30.859</td>
+		<tr><td>
+			<p>26</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			RCEN (single model)
+			<p class="institution"><font face="helvetica" size="2">
+6ESTATES PTE LTD</p></td>
+			<td>64.576</td>
+			<td>83.136</td>
+			<td>10.516</td>
+			<td>30.994</td>
+		<tr><td>
+			<p>27</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			GM-Reader (single model)
+			<p class="institution"><font face="helvetica" size="2">
+BUPT CIST</p></td>
+			<td>60.470</td>
+			<td>80.035</td>
+			<td>13.690</td>
+			<td>33.990</td>
+		<tr><td>
+			<p>28</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			OmegaOne (single model)
+			<p class="institution"><font face="helvetica" size="2">
+Fudan University</p></td>
+			<td>64.188</td>
+			<td>81.539</td>
+			<td>10.119</td>
+			<td>29.716</td>
+		<tr><td>
+			<p>29</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			R-NET (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ShanXi University</p></td>
+			<td>50.112</td>
+			<td>73.353</td>
+			<td>9.921</td>
+			<td>29.324</td>
+		<tr><td>
+			<p>30</p>
+			<span class="date label label-default">2019/11/1</span>
+		</td>
+		<td style="word-break:break-word;">
+			ALBERT-tiny (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ChineseGLUE Team</p>			<a href="https://github.com/CLUEBenchmark">
+https://github.com/CLUEBenchmark</font></a></td>
+			<td>53.687</td>
+			<td>75.738</td>
+			<td>6.746</td>
+			<td>25.600</td>
+		<tr><td>
+			<p>31</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			SXU-Reader (single model)
+			<p class="institution"><font face="helvetica" size="2">
+ShanXi University</p></td>
+			<td>44.270</td>
+			<td>70.673</td>
+			<td>6.548</td>
+			<td>28.116</td>
+		<tr><td>
+			<p>32</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			Unnamed System (single model)
+			<p class="institution"><font face="helvetica" size="2">
+THUIR & ILPS</p></td>
+			<td>44.883</td>
+			<td>66.859</td>
+			<td>7.341</td>
+			<td>22.317</td>
+		<tr><td>
+			<p>33</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			Unnamed System (single model)
+			<p class="institution"><font face="helvetica" size="2">
+USST NLP</p></td>
+			<td>37.916</td>
+			<td>63.502</td>
+			<td>5.159</td>
+			<td>18.687</td>
+		<tr><td>
+			<p>34</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			SXU-Reader (ensemble)
+			<p class="institution"><font face="helvetica" size="2">
+ShanXi University</p></td>
+			<td>46.210</td>
+			<td>70.482</td>
+			<td>0.000</td>
+			<td>0.000</td>
+		<tr><td>
+			<p>35</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			Unnamed System (single model)
+			<p class="institution"><font face="helvetica" size="2">
+Wuhan University</p></td>
+			<td>22.288</td>
+			<td>46.774</td>
+			<td>2.183</td>
+			<td>21.587</td>
+		<tr><td>
+			<p>36</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			Unnamed System (single model)
+			<p class="institution"><font face="helvetica" size="2">
+LittleBai - OpenMindClub</p></td>
+			<td>10.848</td>
+			<td>37.231</td>
+			<td>0.397</td>
+			<td>9.498</td>
+		<tr><td>
+			<p>37</p>
+			<span class="date label label-default">2018/9/17</span>
+		</td>
+		<td style="word-break:break-word;">
+			Unnamed System (single model)
+			<p class="institution"><font face="helvetica" size="2">
+JSPI-POAL</p></td>
+			<td>0.449</td>
+			<td>34.224</td>
+			<td>2.579</td>
+			<td>20.078</td>
+
+			</table>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+
+		<nav class="navbar navbar-default navbar-static-bottom footer">
+			<div class="container clearfix">
+				<div class="rightNav">
+					<div>
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="http://hfl-rc.github.io">
+								Joint Laboratory of HIT and iFLYTEK Research</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<script src="./jquery.min.js">
+		</script>
+		<script src="./bootstrap.min.js">
+		</script>
+	</body>
+	</html>
