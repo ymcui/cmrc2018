@@ -30,7 +30,7 @@ Please download CMRC 2018 public datasets via the following CodaLab Worksheet.
 If you would like to **test your model on the hidden test and challenge set**, please follow the instructions on how to submit your model via CodaLab worksheet.  
 [https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/](https://worksheets.codalab.org/worksheets/0x96f61ee5e9914aee8b54bd11e66ec647/)
 
-**Note that the test set on [CLUE](https://github.com/CLUEbenchmark/CLUE) is NOT the complete test set. If you wish to evaluate your model OFFICIALLY on CMRC 2018, you should follow the guidelines here. **
+**Note that the test set on [CLUE](https://github.com/CLUEbenchmark/CLUE) is NOT the complete test set. If you wish to evaluate your model OFFICIALLY on CMRC 2018, you should follow the guidelines here.  **
 
 ### Quick Load Through 🤗datasets
 You can also access this dataset as part of the [HuggingFace `datasets` library](https://github.com/huggingface/datasets) library as follow:
