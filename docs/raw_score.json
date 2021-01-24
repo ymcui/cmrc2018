@@ -664,8 +664,8 @@
 		{
 		  "tid": "2021001", 
 		  "date": "Jan 22, 2021", 
-		  "system_name": "SLIGReader-base", 
-		  "team_name": "SJTU", 
+		  "system_name": "ESSPReader-base", 
+		  "team_name": "Anonymous", 
 		  "model_type": "single model", 
 		  "url": "", 
 		  "paper": "", 
@@ -679,8 +679,8 @@
 		{
 		  "tid": "2021002", 
 		  "date": "Jan 22, 2021", 
-		  "system_name": "SLIGReader-large", 
-		  "team_name": "SJTU", 
+		  "system_name": "ESSPReader-large", 
+		  "team_name": "Anonymous", 
 		  "model_type": "single model", 
 		  "url": "", 
 		  "paper": "", 
