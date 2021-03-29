@@ -690,6 +690,21 @@
 		  "test_f1": "91.476", 
 		  "challenge_em": "30.357", 
 		  "challenge_f1": "58.396"
+		},
+		{
+		  "tid": "2021003", 
+		  "date": "Mar 28, 2021", 
+		  "system_name": "Xlingual-base42", 
+		  "team_name": "KEG", 
+		  "model_type": "single model", 
+		  "url": "", 
+		  "paper": "", 
+		  "dev_em": "36.409", 
+		  "dev_f1": "73.636", 
+		  "test_em": "65.189", 
+		  "test_f1": "83.661", 
+		  "challenge_em": "0.922", 
+		  "challenge_f1": "15.995"
 		}
 	]
 }
