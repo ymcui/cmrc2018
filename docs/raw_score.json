@@ -664,8 +664,8 @@
 		{
 		  "tid": "2021001", 
 		  "date": "Jan 22, 2021", 
-		  "system_name": "ESSPReader-base", 
-		  "team_name": "Anonymous", 
+		  "system_name": "ESPReader-base", 
+		  "team_name": "Shanghai Jiao Tong University", 
 		  "model_type": "single model", 
 		  "url": "", 
 		  "paper": "", 
@@ -679,8 +679,8 @@
 		{
 		  "tid": "2021002", 
 		  "date": "Jan 22, 2021", 
-		  "system_name": "ESSPReader-large", 
-		  "team_name": "Anonymous", 
+		  "system_name": "ESPReader-large", 
+		  "team_name": "Shanghai Jiao Tong University", 
 		  "model_type": "single model", 
 		  "url": "", 
 		  "paper": "", 
