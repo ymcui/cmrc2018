@@ -705,6 +705,21 @@
 		  "test_f1": "83.661", 
 		  "challenge_em": "0.922", 
 		  "challenge_f1": "15.995"
-		}
+		},
+		{
+		  "tid": "2021004", 
+		  "date": "May 31, 2021", 
+		  "system_name": "XLQA", 
+		  "team_name": "Anonymous", 
+		  "model_type": "single model", 
+		  "url": "", 
+		  "paper": "", 
+		  "dev_em": "3.075", 
+		  "dev_f1": "57.999", 
+		  "test_em": "1.961", 
+		  "test_f1": "32.438", 
+		  "challenge_em": "0.198", 
+		  "challenge_f1": "8.687"
+		}	
 	]
 }
