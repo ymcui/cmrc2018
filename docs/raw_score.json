@@ -720,6 +720,21 @@
 		  "test_f1": "32.438", 
 		  "challenge_em": "0.198", 
 		  "challenge_f1": "8.687"
+		},
+		{
+		  "tid": "2021005", 
+		  "date": "June 25, 2021", 
+		  "system_name": "MacBERT-large-fact-evidence", 
+		  "team_name": "Anonymous", 
+		  "model_type": "single model", 
+		  "url": "", 
+		  "paper": "", 
+		  "dev_em": "68.624", 
+		  "dev_f1": "87.518", 
+		  "test_em": "72.952", 
+		  "test_f1": "89.374", 
+		  "challenge_em": "26.389", 
+		  "challenge_f1": "55.009"
 		}
 	]
 }
