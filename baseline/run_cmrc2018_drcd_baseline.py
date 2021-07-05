@@ -897,7 +897,7 @@ def write_predictions(all_examples, all_features, all_results, n_best_size,
     # just create a nonce prediction in this case to avoid failure.
     if not nbest:
       nbest.append(
-          _NbestPrediction(text="empty", start_logit=0.0, end_logit=0.0))
+          _NbestPrediction(text="empty", start_logit=0.0, end_logit=0.0, start_index=0, end_index=0))
 
     assert len(nbest) >= 1
 
